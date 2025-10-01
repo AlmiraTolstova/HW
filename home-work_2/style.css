@@ -1,27 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   display: contents;
-  font-family: "Roboto";
+  font-family: "Inter";
 }
 .header {
   display: flex;
   background-color: rgba(61, 61, 61, 1);
   color: white;
-  padding: 16px;
+  padding: 8px;
 }
 h1 {
-  margin: 0;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .container {
   background-color: rgba(173, 216, 230, 1);
-  margin: 0;
-  padding: 16px;
+  padding: 8px;
+}
+h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.container_text {
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+h3 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 19px;
+  line-height: 100%;
+  margin-bottom: 16px;
 }
 .container-paragraph {
   border-radius: 8px;
   margin-bottom: 16px;
-  padding: 16px;
+  padding: 8px;
   background-color: rgba(3, 255, 255, 1);
 }
 h4 {
-  display: contents;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+.container-paragraph_text {
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 100%;
 }
